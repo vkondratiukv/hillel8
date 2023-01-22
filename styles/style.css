@@ -1,0 +1,41 @@
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.text-wrapper {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-heading {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+li {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+li:hover {
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+}
+
+img {
+    height: 370px;
+    width: 294px;
+}
